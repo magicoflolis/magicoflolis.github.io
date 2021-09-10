@@ -1,18 +1,20 @@
-title: Moonwalk
-author: Abhinav Saxena
-url: https://www.abhinavsaxena.com/moonwalk # root address of the site
-description: > # description of the site (multiple lines allowed)
-  Moonwalk is a fast and elegant Jekyll theme with a clean dark mode. It comes with horizontal list (for navbar and footer), card list (for portfolio), and a generic vertical list. It is very easy to modify in case you want to build over it - please see _layouts/home.html to do that.
-
+title: Magic's Repo
+email: magicoflolis@tuta.io
+description: >- # this means to ignore newlines until "baseurl:"
+  Repo list
+domain: magicoflolis.github.io
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://magicoflolis.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:slug.html
 
 favicon: "./logo.png" # relative path to site's favicon
 
 twitter:
-    username: abhinav # update or delete this
+    username: for_lollipops # update or delete this
     card: summary_large_image
 
-#theme: moonwalk # if you are using GitHub Pages, change it to remote_theme: abhinavs/moonwalk
+github_username:  magicoflolis
+
 remote_theme: abhinavs/moonwalk
 
 theme_config:
@@ -23,7 +25,7 @@ theme_config:
   show_description: true # show blog description
   show_navbar: true # show horizontal navbar
   show_footer: true # show footer links in home page,add in _data/home.yml
-  show_copyright: true # show copyright notice in footer
+  show_copyright: false # show copyright notice in footer
   # following keys are using to create home layout
   show_projects: true # show projects as cards, add in _data/home.yml
   show_blog: true # show blog posts added in _posts
@@ -36,9 +38,6 @@ theme_config:
     title_blog: Blog
     title_old_projects: Old Projects
 
-soopr:
-  publish_token: "" # sign up at https://www.soopr.co to get your publish token and personalize share and reaction options
-
 highlighter: rouge
 
 sass:
@@ -47,3 +46,23 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-soopr-seo-tag
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
