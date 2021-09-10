@@ -1,4 +1,2 @@
 theme: moonwalk
 remote_theme: abhinavs/moonwalk
-plugins:
-- jekyll-remote-theme
